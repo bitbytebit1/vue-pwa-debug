@@ -9,6 +9,7 @@ const UtilsPlug = {
         tmp.select()
         document.execCommand('copy')
         tmp.remove()
+        console.log('copied', sText)
       },
       downloadLink: function (sURL) {
         var iframe = document.createElement('iframe')
@@ -20,7 +21,8 @@ const UtilsPlug = {
         document.body.appendChild(iframe)
       }
     }
-    Object.defineProperty(Vue.prototype, '$UTILS', { value: Utils })
+    Vue.prototype.$UTILS = Utils
+    // Object.defineProperty(Vue.prototype, '$UTILS', { value: Utils })
   }
 }
 export default UtilsPlug

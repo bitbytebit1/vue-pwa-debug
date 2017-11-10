@@ -14,6 +14,7 @@
 export default {
   name: 'app',
   created: function () {
+    console.log(this.$UTILS)
     this.$UTILS.copyToClipboard('It worked!')
     alert('Copied stuff to clipboard!')
   }
