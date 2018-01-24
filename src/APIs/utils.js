@@ -25,4 +25,9 @@ const UtilsPlug = {
     // Object.defineProperty(Vue.prototype, '$UTILS', { value: Utils })
   }
 }
-export default UtilsPlug
+
+module.exports = {
+  UtilsPlug
+}
+
+// export default UtilsPlug
