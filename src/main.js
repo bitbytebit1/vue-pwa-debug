@@ -3,9 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-// import UtilsPlug from './apis/utils.js'
-var UtilsPlug = require('./apis/utils.js')
-
+import UtilsPlug from './apis/utils.js'
 Vue.use(UtilsPlug)
 
 Vue.config.productionTip = false

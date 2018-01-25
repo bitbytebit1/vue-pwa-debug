@@ -26,8 +26,8 @@ const UtilsPlug = {
   }
 }
 
-module.exports = {
-  UtilsPlug
-}
+export default UtilsPlug
 
-// export default UtilsPlug
+// module.exports = {
+//   UtilsPlug
+// }

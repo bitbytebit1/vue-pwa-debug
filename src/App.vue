@@ -11,6 +11,10 @@
 </template>
 
 <script>
+import Vue from 'vue'
+import UtilsPlug from '@/apis/utils.js'
+Vue.use(UtilsPlug)
+
 export default {
   name: 'app',
   created: function () {
